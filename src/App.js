@@ -1,8 +1,12 @@
+import CssBaseline from '@material-ui/core/CssBaseline';
 import {BrowserRouter, Switch, Route, Redirect, NavLink} from "react-router-dom";
+import 'fontsource-roboto';
 
 function App() {
     return (
         <BrowserRouter>
+            <CssBaseline/>
+
             <NavLink to="/">Home</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/toolkit">Toolkit</NavLink>
