@@ -2,7 +2,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import 'fontsource-roboto';
 import {BrowserRouter, Switch, Route, Redirect, NavLink} from "react-router-dom";
 import {MuiThemeProvider} from "@material-ui/core";
-import useApplicationTheme from "./components/useApplicationTheme";
+import useApplicationTheme from "./hooks/useApplicationTheme";
+import Homepage from "./pages/homepage/Homepage";
 
 function App() {
     const theme = useApplicationTheme();
@@ -19,7 +20,7 @@ function App() {
 
                 <Switch>
                     <Route exact path={"/"}>
-                        <p>homepage</p>
+                        <Homepage/>
                     </Route>
                     <Route exact path={"/projects"}>
                         <p>projects</p>
