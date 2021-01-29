@@ -5,7 +5,7 @@ import {deepPurple} from "@material-ui/core/colors";
 export default function useApplicationTheme() {
     const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
 
-    const theme = useMemo(
+    return useMemo(
         () =>
             createMuiTheme({
                 palette: {
@@ -15,7 +15,4 @@ export default function useApplicationTheme() {
             }),
         [prefersDarkMode],
     );
-
-    console.log(theme)
-    return theme;
 }
