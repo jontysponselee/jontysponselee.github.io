@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "title": "Project 1",
+    "imageUrl": "1.jpg",
+    "shortDescription": "Het eerste project wat ik heb gedaan",
+    "description": "Het eerste project wat ik heb gedaan",
+    "tags": [
+      "PHP",
+      "MYSQL",
+      "JS",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Project 2",
+    "imageUrl": "1.jpg",
+    "shortDescription": "Het eerste project wat ik heb gedaan",
+    "description": "Het tweede project wat ik heb gedaan Het tweede project wat ik heb gedaanHet tweede project wat ik heb gedaan Het tweede project wat ik heb gedaan",
+    "tags": [
+      "Typescript"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Project 3",
+    "imageUrl": "1.jpg",
+    "shortDescription": "Het eerste project wat ik heb gedaan",
+    "description": "Het derde project wat ik heb gedaan",
+    "tags": [
+      "Kotlin",
+      "POSTGRESQL"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Project 4",
+    "imageUrl": "1.jpg",
+    "shortDescription": "Het eerste project wat ik heb gedaan",
+    "description": "Het vierde project wat ik heb gedaan",
+    "tags": [
+      "Golang"
+    ]
+  }
+]

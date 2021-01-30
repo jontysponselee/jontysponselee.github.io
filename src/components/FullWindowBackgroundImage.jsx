@@ -1,8 +1,7 @@
 import {Box, makeStyles} from "@material-ui/core";
+import {homepageImageUrl} from "../App";
 
-const homepageImageUrl = `${process.env.PUBLIC_URL}/homepageImage.jpg`;
-
-const useStyles = makeStyles({
+const useStyles = makeStyles(() => ({
     backgroundImage: {
         backgroundImage: `url(${homepageImageUrl})`,
         filter: "opacity(15%) grayscale(100%)",
@@ -13,7 +12,7 @@ const useStyles = makeStyles({
         bottom: "0px",
         left: "0px"
     }
-});
+}));
 
 function FullWindowBackgroundImage({children}) {
     const {backgroundImage} = useStyles();

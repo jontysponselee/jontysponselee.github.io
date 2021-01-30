@@ -29,7 +29,7 @@ const NavigationLink = forwardRef((props, ref) => {
 
     return <Link exact ref={ref} component={NavLink} color={"textSecondary"}
                  activeClassName={activeNavLink} {...props} />
-})
+});
 
 function NavigationBar() {
     const {root} = useStyles();

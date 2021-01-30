@@ -1,11 +1,12 @@
 import {Redirect, Route, Switch} from "react-router-dom";
 import React from "react";
+import ProjectsPage from "../pages/projectsPage/ProjectsPage";
 
 function PageRoutes() {
     return (
         <Switch>
             <Route exact path={"/projects"}>
-                <p>Projects</p>
+                <ProjectsPage/>
             </Route>
             <Route exact path={"/toolkit"}>
                 <p>toolkit</p>

@@ -2,6 +2,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Homepage from "../pages/homepage/Homepage";
 import PageRoutes from "./PageRoutes";
 import PageHeader from "../components/pageHeader/PageHeader";
+import {Box, Container, Paper} from "@material-ui/core";
 
 function ApplicationRouter() {
     return (
@@ -12,7 +13,13 @@ function ApplicationRouter() {
                 </Route>
                 <Route>
                     <PageHeader/>
-                    <PageRoutes/>
+                    <Container>
+                        <Box mt={3}>
+                            <Paper elevation={2}>
+                                <PageRoutes/>
+                            </Paper>
+                        </Box>
+                    </Container>
                 </Route>
             </Switch>
         </BrowserRouter>
