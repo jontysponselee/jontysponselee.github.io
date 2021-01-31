@@ -27,6 +27,11 @@ function AboutMeContent() {
                     where I am enrolled in Open-ICT, a project-based course. I specialise in back-end and web development.
                     I am also interested in AI and data science. I am an analytical, hard-working problem-solver,
                     who is always looking for cutting-edge technologies to continue improving my skills.
+                    <br><br>
+                    My toolkit consists of the following:
+                    <br>•\tProfessional: Typescript/Javascript, PHP, SQL, ReactJS, GIT, Deno, Docker, User experience, Database modeling, UML, HTML/CSS, Wordpress, jQuery
+                    <br>•\tIntermediate: Linux, Kotlin, Sass, Golang
+
                 `}/>
             </Grid>
             <Grid item xs>

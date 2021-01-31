@@ -8,9 +8,7 @@ function PageContent({title, description}) {
                 {title}
             </Typography>
             {description && (
-                <Typography variant={"body1"}>
-                    {description}
-                </Typography>
+                <Typography variant={"body1"} dangerouslySetInnerHTML={{__html: description}}/>
             )}
         </>
     );
