@@ -3,6 +3,7 @@ import {useState} from "react";
 import SwipeableViews from "react-swipeable-views";
 import {makeStyles} from "@material-ui/core/styles";
 import Education from "./Education";
+import WorkExperience from "./WorkExperience";
 
 // @todo retrieve experience and education data from LinkedIn API
 
@@ -11,7 +12,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.primary["400"],
     }
 }));
-
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
@@ -69,7 +69,7 @@ function ExperienceTabs() {
                     <Education/>
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
-                    Work experience
+                    <WorkExperience/>
                 </TabPanel>
             </SwipeableViews>
         </Paper>

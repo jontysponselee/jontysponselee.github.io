@@ -1,0 +1,39 @@
+[
+  {
+    "description": "Frontend web developer",
+    "imageUrl": "creates.png",
+    "companyName": "Creates",
+    "startDate": "apr. 2019",
+    "endDate": "aug. 2020"
+  },
+  {
+    "description": "Full stack web developer",
+    "imageUrl": "nederdesign.png",
+    "companyName": "Nederdesign",
+    "startDate": "sep. 2018",
+    "endDate": "jan. 2019",
+    "internship": true
+  },
+  {
+    "description": "Full stack web developer",
+    "imageUrl": "tim_online.png",
+    "companyName": "Tim_online",
+    "startDate": "feb. 2017",
+    "endDate": "may. 2017",
+    "internship": true
+  },
+  {
+    "description": "Assistant cook",
+    "imageUrl": "boskafeeke.png",
+    "companyName": "Boskafeeke GRILL",
+    "startDate": "aug. 2014",
+    "endDate": "jan. 2018"
+  },
+  {
+    "description": "Cashier",
+    "imageUrl": "action.jpg",
+    "companyName": "Action BV",
+    "startDate": "nov. 2013",
+    "endDate": "jul. 2014"
+  }
+]

@@ -21,10 +21,10 @@ function AboutMeContent() {
     return (
         <Grid container spacing={4}>
             <Grid item xs={12} sm={7}>
-                <Typography variant={"h3"} component={"h1"}>
+                <Typography variant={"h3"} component={"h1"} gutterBottom>
                     About me
                 </Typography>
-                <Typography paragraph variant={"body1"}>
+                <Typography variant={"body1"}>
                     Hi, my name is Jonty Sponselee and I am a developer.
                     I am 23 years old and based in Utrecht.
                     I’m currently a student at the HU University of Applied Sciences Utrecht,
@@ -34,7 +34,7 @@ function AboutMeContent() {
                 </Typography>
             </Grid>
             <Grid item xs>
-                <Box maxWidth={256} m={"auto"}>
+                <Box maxWidth={256} ml={"auto"}>
                     <img className={classes.img} src={aboutMeImage} alt={"Picture of me"}/>
                 </Box>
             </Grid>
