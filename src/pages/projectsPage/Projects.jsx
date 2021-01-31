@@ -7,7 +7,7 @@ import {
     Collapse,
     Grid,
     IconButton,
-    Typography
+    Typography, TypographyVariant
 } from "@material-ui/core";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from "react";
@@ -28,13 +28,21 @@ const useStyles = makeStyles(theme => ({
         transform: 'rotate(180deg)',
     },
     tags: {
-        paddingBottom: theme.spacing(1.5),
         "& > *": {
-            marginRight: theme.spacing(1)
+            marginRight: theme.spacing(1),
+            marginBottom: theme.spacing(1),
         }
     },
     media: {
         height: 140,
+    },
+    description: {
+        "& a": {
+            color: theme.palette.primary[400],
+            "&:hover": {
+                color: theme.palette.secondary.main
+            }
+        }
     }
 }));
 
@@ -77,7 +85,7 @@ function ProjectCardText({project}) {
                 </IconButton>
             </Box>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
-                <Typography variant={"body2"}>{project.description}</Typography>
+                <Typography variant={"body2"} dangerouslySetInnerHTML={{__html: project.description}} className={classes.description} />
             </Collapse>
         </>
     );
@@ -103,8 +111,8 @@ function ProjectCard({project}) {
 function Projects() {
     return (
         <Grid container spacing={4}>
-            {projects.map(project => (
-                <ProjectCard project={project} key={project.id}/>
+            {projects.map((project, index) => (
+                <ProjectCard project={project} key={index}/>
             ))}
         </Grid>
     );

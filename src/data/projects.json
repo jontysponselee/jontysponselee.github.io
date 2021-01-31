@@ -1,47 +1,38 @@
 [
   {
-    "id": "1",
-    "title": "Project 1",
-    "imageUrl": "1.jpg",
-    "shortDescription": "Het eerste project wat ik heb gedaan",
-    "description": "Het eerste project wat ik heb gedaan",
+    "title": "Advent of code",
+    "imageUrl": "adventOfCode.jfif",
+    "description": "Advent of Code is a yearly code challenge I participated in. The Advent of Code counts down the days until Christmas. Every day you receive an assignment consisting of two parts, which you can solve in any way you can think of, as long as you provide a solution, regardless of programming language. It is a way to exert my creativity and creative problem-solving. I challenge myself to create the code as efficiently as I can, to create the shortest elegant code with the fastest performance. You can check out <a href='https://github.com/jontysponselee/adventOfCode'>my Github page</a> to see what kind of solutions I came up with, and check out the website of <a href='https://adventofcode.com/'>Advent of Code</a> to participate next time!",
+    "tags": [
+      "Typescript",
+      "PHP"
+    ]
+  },
+  {
+    "title": "Altenburg Fotografie",
+    "imageUrl": "altenburgFotografie.png",
+    "description": "Altenburg Fotografie is a website I created as a project with a partner. My partner created the design and I coded it in a Wordpress environment. This made it possible for our client to manage his website in the future. This project was a good opportunity for us to hone our skills.  <br><br>If you want to have a look, click <a href='http://altenburg-fotografie.nl'>here</a>.",
     "tags": [
       "PHP",
-      "MYSQL",
+      "Wordpress",
       "JS",
+      "Sass",
       "CSS",
       "HTML"
     ]
   },
   {
-    "id": "2",
-    "title": "Project 2",
-    "imageUrl": "1.jpg",
-    "shortDescription": "Het eerste project wat ik heb gedaan",
-    "description": "Het tweede project wat ik heb gedaan Het tweede project wat ik heb gedaanHet tweede project wat ik heb gedaan Het tweede project wat ik heb gedaan",
+    "title": "Weitjerock DB",
+    "imageUrl": "weitjerockDB.jpg",
+    "description": "Weitjerock is a festival in the Netherlands and the organisation behind it needed a web application to store their sponsor and band data. <br><br> This was my first big project of my MBO course. In this project I have learned the basics of web development, data modeling and communicating with clients. The code that I have written most was PHP for the backend. I also learned the basics Javascript, but this was mostly with the jQuery library. At last, I also picked up some user-experience skills, because it was important that the data of the application was showing effectively to the end user. ",
     "tags": [
-      "Typescript"
-    ]
-  },
-  {
-    "id": "3",
-    "title": "Project 3",
-    "imageUrl": "1.jpg",
-    "shortDescription": "Het eerste project wat ik heb gedaan",
-    "description": "Het derde project wat ik heb gedaan",
-    "tags": [
-      "Kotlin",
-      "POSTGRESQL"
-    ]
-  },
-  {
-    "id": "4",
-    "title": "Project 4",
-    "imageUrl": "1.jpg",
-    "shortDescription": "Het eerste project wat ik heb gedaan",
-    "description": "Het vierde project wat ik heb gedaan",
-    "tags": [
-      "Golang"
+      "PHP",
+      "MYSQL",
+      "JS",
+      "CSS",
+      "HTML",
+      "Wordpress",
+      "Database modeling"
     ]
   }
 ]
