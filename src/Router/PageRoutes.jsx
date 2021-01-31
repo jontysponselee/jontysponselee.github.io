@@ -10,9 +10,6 @@ function PageRoutes() {
             <Route exact path={"/projects"}>
                 <ProjectsPage/>
             </Route>
-            <Route exact path={"/toolkit"}>
-                <p>toolkit</p>
-            </Route>
             <Route exact path={"/about-me"}>
                 <AboutMePage/>
             </Route>

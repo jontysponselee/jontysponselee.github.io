@@ -38,7 +38,6 @@ function NavigationBar() {
         <Box className={root}>
             <NavigationLink to="/">Home</NavigationLink>
             <NavigationLink to="/projects">Projects</NavigationLink>
-            <NavigationLink to="/toolkit">Toolkit</NavigationLink>
             <NavigationLink to="/about-me">About me</NavigationLink>
             <NavigationLink to="/contact">Contact</NavigationLink>
         </Box>

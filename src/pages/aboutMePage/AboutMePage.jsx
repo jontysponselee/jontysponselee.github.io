@@ -30,7 +30,7 @@ function AboutMeContent() {
                     <br><br>
                     My toolkit consists of the following:
                     <br>•\tProfessional: Typescript/Javascript, PHP, SQL, ReactJS, GIT, Deno, Docker, User experience, Database modeling, UML, HTML/CSS, Wordpress, jQuery
-                    <br>•\tIntermediate: Linux, Kotlin, Sass, Golang
+                    <br>•\tIntermediate: Linux, Kotlin, Sass, Golang, React Material Ui
 
                 `}/>
             </Grid>
