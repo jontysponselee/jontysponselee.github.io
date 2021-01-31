@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hogeschool Utrecht",
+    "imageUrl": "hu.png",
+    "course": "HBO, ICT",
+    "enrollmentYear": "2020",
+    "graduationYear": "ongoing"
+  },
+  {
+    "name": "Scalda",
+    "imageUrl": "scalda2.png",
+    "course": "MBO 4, Mediadevelopment",
+    "enrollmentYear": "2013",
+    "graduationYear": "2019"
+  },
+  {
+    "name": "Reynaert College",
+    "imageUrl": "reynaert.png",
+    "course": "VMBO-K, Electrical engineering",
+    "enrollmentYear": "2009",
+    "graduationYear": "2013"
+  }
+]

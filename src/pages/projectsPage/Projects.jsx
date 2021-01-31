@@ -1,8 +1,7 @@
 import {
     Box,
     Card,
-    CardActions,
-    CardContent, CardHeader,
+    CardContent,
     CardMedia,
     Chip,
     Collapse,
@@ -27,9 +26,6 @@ const useStyles = makeStyles(theme => ({
     },
     expandOpen: {
         transform: 'rotate(180deg)',
-    },
-    projectCard: {
-        // padding: theme.spacing(2)
     },
     tags: {
         paddingBottom: theme.spacing(1.5),
