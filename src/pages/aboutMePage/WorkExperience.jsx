@@ -5,8 +5,8 @@ import ExperienceCard from "../../components/ExperienceCard";
 function WorkExperience() {
     return (
         <>
-            {jobs.map(job =>
-                <Job job={job}/>
+            {jobs.map((job, index) =>
+                <Job job={job} key={index}/>
             )}
         </>
     );

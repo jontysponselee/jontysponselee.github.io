@@ -1,4 +1,4 @@
-import {createMuiTheme, useMediaQuery} from "@material-ui/core";
+import {createMuiTheme} from "@material-ui/core";
 import {useMemo} from "react";
 import {deepPurple} from "@material-ui/core/colors";
 

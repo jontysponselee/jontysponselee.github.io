@@ -18,8 +18,8 @@ function HomepageButtons() {
             <Button variant="contained" color="primary" component={Link} to="/projects">
                 Projects
             </Button>
-            <Button variant="outlined" color="accent" component={Link} to={"/toolkit"}>
-                Toolkit
+            <Button variant="outlined" color="accent" component={Link} to={"/about-me"}>
+                About me
             </Button>
         </Box>
     )

@@ -5,8 +5,8 @@ import ExperienceCard from "../../components/ExperienceCard";
 function Education() {
     return (
         <>
-            {education.map(study =>
-                <Study study={study}/>
+            {education.map((study, index) =>
+                <Study study={study} key={index}/>
             )}
         </>
     );
