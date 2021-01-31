@@ -1,4 +1,18 @@
+
 [
+  {
+    "title": "Hairdresser project",
+    "imageUrl": "hairdresserProject.jpg",
+    "description": "This was my first project for my HBO Open-ICT course. The assignment was to create a website for hairdressers, where customers could make appointments. During this project, I learned how to use Lumen, a micro-framework based on Laravel. I used this framework for back-end development, and ReactJS for front-end development. In addition, I gained more experience with improving the user experience, as I found it important to make the website clear and easy to use for customers. To see the code of the frontend, check out <a href='https://github.com/jontysponselee/reserved-frontend'>this repository</a>. To see the code of the backend, check out <a href='https://github.com/jontysponselee/reserved-backend'>this repository</a>.",
+    "tags": [
+      "PHP",
+      "ReactJS",
+      "Lumen/Laravel",
+      "MySQL/MariaDB",
+      "Javascript",
+      "Database modeling"
+    ]
+  },
   {
     "title": "Advent of code",
     "imageUrl": "adventOfCode.jfif",
@@ -15,10 +29,9 @@
     "tags": [
       "PHP",
       "Wordpress",
-      "JS",
+      "Javascript",
       "Sass",
-      "CSS",
-      "HTML"
+      "HTML/CSS"
     ]
   },
   {
@@ -27,10 +40,9 @@
     "description": "Weitjerock is a festival in the Netherlands and the organisation behind it needed a web application to store their sponsor and band data. <br><br> This was my first big project of my MBO course. In this project I have learned the basics of web development, data modeling and communicating with clients. The code that I have written most was PHP for the backend. I also learned the basics Javascript, but this was mostly with the jQuery library. At last, I also picked up some user-experience skills, because it was important that the data of the application was showing effectively to the end user. ",
     "tags": [
       "PHP",
-      "MYSQL",
-      "JS",
-      "CSS",
-      "HTML",
+      "MySQL/MariaDB",
+      "Javascript",
+      "HTML/CSS",
       "Wordpress",
       "Database modeling"
     ]
