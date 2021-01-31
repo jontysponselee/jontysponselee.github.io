@@ -14,10 +14,8 @@ function ApplicationRouter() {
                 <Route>
                     <PageHeader/>
                     <Container>
-                        <Box mt={3}>
-                            <Paper elevation={2}>
-                                <PageRoutes/>
-                            </Paper>
+                        <Box mt={4} p={4} component={Paper} elevation={2}>
+                            <PageRoutes/>
                         </Box>
                     </Container>
                 </Route>

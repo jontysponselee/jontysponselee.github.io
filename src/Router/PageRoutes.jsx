@@ -1,6 +1,7 @@
 import {Redirect, Route, Switch} from "react-router-dom";
 import React from "react";
 import ProjectsPage from "../pages/projectsPage/ProjectsPage";
+import AboutMePage from "../pages/aboutMePage/AboutMePage";
 
 function PageRoutes() {
     return (
@@ -12,7 +13,7 @@ function PageRoutes() {
                 <p>toolkit</p>
             </Route>
             <Route exact path={"/about-me"}>
-                <p>About me</p>
+                <AboutMePage/>
             </Route>
             <Route exact path={"/contact-me"}>
                 <p>Contact me</p>

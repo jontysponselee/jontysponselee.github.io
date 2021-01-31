@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
         transform: 'rotate(180deg)',
     },
     projectCard: {
-        padding: theme.spacing(2)
+        // padding: theme.spacing(2)
     },
     tags: {
         paddingBottom: theme.spacing(1.5),
@@ -106,7 +106,7 @@ function ProjectCard({project}) {
 
 function Projects() {
     return (
-        <Grid container>
+        <Grid container spacing={4}>
             {projects.map(project => (
                 <ProjectCard project={project} key={project.id}/>
             ))}

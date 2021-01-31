@@ -15,7 +15,7 @@ function PageHeader() {
     const {title} = useStyles();
 
     return (
-        <AppBar position="static">
+        <AppBar position="sticky">
             <Toolbar>
                 <Typography variant="h6" className={title}>
                     Jonty Sponselee | Portfolio
