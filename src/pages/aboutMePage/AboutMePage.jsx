@@ -5,6 +5,14 @@ import ExperienceTabs from "./ExperienceTabs";
 import PageContent from "../../components/PageContent";
 
 const useStyles = makeStyles((theme) => ({
+    imgContainer: {
+        marginLeft: "auto",
+        marginRight: "auto",
+        maxWidth: 256,
+        [theme.breakpoints.up('md')]: {
+            marginRight: "unset"
+        },
+    },
     img: {
         maxWidth: "100%",
         maxHeight: '100%',
@@ -19,7 +27,7 @@ function AboutMeContent() {
 
     return (
         <Grid container spacing={4}>
-            <Grid item xs={12} sm={7}>
+            <Grid item xs={12} md={7}>
                 <PageContent title={"About me"} description={`
                 Hi, my name is Jonty Sponselee and I am a developer.
                     I am 23 years old and based in Utrecht.
@@ -35,7 +43,7 @@ function AboutMeContent() {
                 `}/>
             </Grid>
             <Grid item xs>
-                <Box maxWidth={256} ml={"auto"}>
+                <Box className={classes.imgContainer}>
                     <img className={classes.img} src={aboutMeImage} alt={"Jonty Sponselee"}/>
                 </Box>
             </Grid>
