@@ -1,4 +1,4 @@
-import {Box, Paper, Tab, Tabs, Typography, useTheme} from "@material-ui/core";
+import {Box, Paper, Tab, Tabs, Typography, useMediaQuery, useTheme} from "@material-ui/core";
 import {useState} from "react";
 import SwipeableViews from "react-swipeable-views";
 import {makeStyles} from "@material-ui/core/styles";
@@ -10,6 +10,16 @@ import WorkExperience from "./WorkExperience";
 const useStyles = makeStyles((theme) => ({
     tabs: {
         backgroundColor: theme.palette.primary["400"],
+    },
+    experienceTabs: {
+        marginLeft: theme.spacing(-4),
+        marginRight: theme.spacing(-4),
+    },
+    [theme.breakpoints.up('sm')]: {
+        experienceTabs: {
+            marginLeft: "unset",
+            marginRight: "unset",
+        }
     }
 }));
 
@@ -30,9 +40,35 @@ function TabPanel(props) {
     );
 }
 
-function ExperienceTabs() {
+function WithTabs() {
+    const classes = useStyles();
+
+    return (
+        <>
+            <Tabs
+                className={classes.tabs}
+                variant="fullWidth"
+                aria-label="Experience tabs"
+            >
+                <Tab label="Education"/>
+                <Tab label="Work experience"/>
+            </Tabs>
+            <Box display="flex">
+                <Box flex={"100%"} p={4} pr={2}>
+                    <Education/>
+                </Box>
+                <Box flex={"100%"} p={4} pl={2}>
+                    <WorkExperience/>
+                </Box>
+            </Box>
+        </>
+    );
+}
+
+function WithSwipeableTabs() {
     const classes = useStyles();
     const theme = useTheme();
+
     const [value, setValue] = useState(0);
 
     const handleChange = (event, newValue) => {
@@ -49,7 +85,7 @@ function ExperienceTabs() {
     });
 
     return (
-        <Paper variant={"outlined"}>
+        <>
             <Tabs
                 className={classes.tabs}
                 value={value}
@@ -72,6 +108,21 @@ function ExperienceTabs() {
                     <WorkExperience/>
                 </TabPanel>
             </SwipeableViews>
+        </>
+    );
+}
+
+function ExperienceTabs() {
+    const classes = useStyles();
+    const theme = useTheme();
+    const mediumScreen = useMediaQuery(theme.breakpoints.up("md"));
+
+    return (
+        <Paper variant={"outlined"} className={classes.experienceTabs}>
+            {mediumScreen
+                ? <WithTabs/>
+                : <WithSwipeableTabs/>
+            }
         </Paper>
     );
 }
