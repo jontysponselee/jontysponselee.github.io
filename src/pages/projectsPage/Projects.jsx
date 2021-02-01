@@ -96,7 +96,7 @@ function ProjectCard({project}) {
     const imageUrl = useImage(`projects/${project.imageUrl}`)
 
     return (
-        <Grid item xs={12} sm={4} className={classes.projectCard}>
+        <Grid item xs={12} md={6} lg={4} className={classes.projectCard}>
             <Card elevation={3}>
                 <CardMedia image={imageUrl} className={classes.media}/>
                 <CardContent>
