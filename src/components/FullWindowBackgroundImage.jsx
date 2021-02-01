@@ -5,6 +5,7 @@ const useStyles = makeStyles(() => ({
     backgroundImage: {
         backgroundImage: `url(${homepageImageUrl})`,
         filter: "opacity(15%) grayscale(100%)",
+        backgroundSize: "cover",
         zIndex: "-1",
         position: "absolute",
         top: "0px",
