@@ -1,16 +1,54 @@
-
 [
   {
-    "title": "Hairdresser project",
-    "imageUrl": "hairdresserProject.jpg",
-    "description": "This was my first project for my HBO Open-ICT course. The assignment was to create a website for hairdressers, where customers could make appointments. During this project, I learned how to use Lumen, a micro-framework based on Laravel. I used this framework for back-end development, and ReactJS for front-end development. In addition, I gained more experience with improving the user experience, as I found it important to make the website clear and easy to use for customers. To see the code of the frontend, check out <a href='https://github.com/jontysponselee/reserved-frontend'>this repository</a>. To see the code of the backend, check out <a href='https://github.com/jontysponselee/reserved-backend'>this repository</a>.",
+    "title": "Greendish",
+    "imageUrl": "greendish.png",
+    "description": "Greendish is the third project I am involved in for my HBO Open-ICT course. Greendish wants to make caterers be more sustainable in the foods they use in their catering. They had an Excel sheet system, which they wanted to upgrade to an online solution to make it easier for their clients to go through the process of becoming more sustainable.<br><br> In this project, I cooperated on creating the designs and the user-experience. I created the website in ReactJS, and I gained experience with React-hooks. For the backend, my aim was to learn a new architecture, so I created it in Microservices. Because of this, I had the opportunity to learn Docker. On top of this, I learned a new programming language, Typescript. I used this together with the Javascript runtime environment, Deno.",
+    "tags": [
+      "ReactJS",
+      "React",
+      "Typescript",
+      "Deno",
+      "Docker",
+      "Microservices",
+      "MySQL",
+      "Database modeling"
+    ]
+  },
+  {
+    "title": "RinBot",
+    "imageUrl": "rinbot.png",
+    "description": "RinBot was a small side-project, since I wanted to gain the skills of writing a bot for discord. Additionally, I wanted to gain more experience with Typescript. I created a Tic-Tac-Toe bot, that you can play with a friend on a channel. Go to <a href='https://github.com/jontysponselee/rinBot'>my Github page</a> to see the bot I created.",
+    "tags": [
+      "Typescript",
+      "Deno",
+      "Discord"
+    ]
+  },
+  {
+    "title": "Medtracker",
+    "imageUrl": "medtracker.png",
+    "description": "Medtracker is the second project I did for my HBO Open-ICT course. It is a project my partner came up with on his own. Medtracker is a mobile android application which makes it possible to register medicine use and its interactions with other substances. I challenged myself to learn a new programming language, Kotlin. With Kotlin I used the Ktor framework as the backend. On top of this, I learned a new database management language, PostgreSQL. To see the code check out <a href='https://github.com/Medladz/MedTracker-backend'>this repository</a>.",
+    "tags": [
+      "Kotlin",
+      "Ktor",
+      "PostgreSql",
+      "Database modeling"
+    ]
+  },
+  {
+    "title": "Reserved",
+    "imageUrl": "reserved.png",
+    "description": "This was my first project for my HBO Open-ICT course. The assignment was to create a website for hairdressers, where customers could make appointments. During this project, I learned how to use Lumen, a PHP micro-framework by Laravel. I used this framework for back-end development, and ReactJS for front-end development. In addition, I gained more experience with improving the user experience, as I found it important to make the website clear and easy to use for customers. To see the code of the frontend, check out <a href='https://github.com/jontysponselee/reserved-frontend'>this repository</a>. To see the code of the backend, check out <a href='https://github.com/jontysponselee/reserved-backend'>this repository</a>.",
     "tags": [
       "PHP",
       "ReactJS",
       "Lumen/Laravel",
       "MySQL/MariaDB",
       "Javascript",
-      "Database modeling"
+      "Sass",
+      "HTML/CSS",
+      "Database modeling",
+      "Webpack"
     ]
   },
   {
@@ -37,7 +75,7 @@
   {
     "title": "Weitjerock DB",
     "imageUrl": "weitjerockDB.jpg",
-    "description": "Weitjerock is a festival in the Netherlands and the organisation behind it needed a web application to store their sponsor and band data. <br><br> This was my first big project of my MBO course. In this project I have learned the basics of web development, data modeling and communicating with clients. The code that I have written most was PHP for the backend. I also learned the basics Javascript, but this was mostly with the jQuery library. At last, I also picked up some user-experience skills, because it was important that the data of the application was showing effectively to the end user. ",
+    "description": "The client of my first project was Weitjerock, a music festival in the Netherlands. The organisation needed a web application to store their sponsor and band data. <br><br> This was the first big project I did for my MBO-ICT course. During this project, I gained experience in the basics of web development, data modelling and communicating with clients. The backend code I used most for this project was PHP. I also applied Javascript, mostly using the jQuery library. Finally, I developed user-experience skills, because for this project it was very important that the data of the application was effectively presented to the end user.",
     "tags": [
       "PHP",
       "MySQL/MariaDB",
